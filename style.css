@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-bar{
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#icon-menu{
+font-size: 35px;
+}
+#menu{
+    height: 205px;
+    background-color: red;
+    display: none;
+}
+#paginas{
+    list-style: none;
+   
+}
+#paginas a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.pagina{
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    border: solid;
+    border-width: 5px;
+    border-color: white;
+    margin-bottom: 10px;
+}
+#pagina-up{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    border-top-left-radius:20px  ;
+    border-bottom-left-radius: 20px;
+}
+#pagina-up a{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 50px;
+}
+.lista{
+    margin-left: 30px;
+}
+.lista li{
+    margin: 5px 0;
+}
+.titulo{
+    margin: 30px 0 10px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.sub-titulo{
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+footer{
+    height: 60px;
+    background-color: red;
+}
+#remoto ul{
+  display: inline-block;
+  margin-left: 40px;
+}
+#remoto li{
+    margin: 16px 0;
+}
+.icon-contato{
+    width: 50px;
+    margin: 6px 0;
+}
+.fale-conosco{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
